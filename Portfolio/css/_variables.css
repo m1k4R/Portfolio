@@ -1,0 +1,27 @@
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* css variables */
+
+:root {
+    --background-color: #252627;
+    --navbar-color: rgb(24, 24, 24, 0.3);
+    --navbar-color-changed: rgb(24, 24, 24, 0.9);
+    --text-color: #b3b3b3;
+    --text-color-active: #f2f2f2;
+    --text-color-logo: #181818;
+    --text-color-home: #f2f2f2;
+    --text-color-h: #707070;
+    --background-skills-color: #1f2020;
+    --background-portfolio-color: #191a1a;
+    --background-contact-color: #141414;
+
+
+    /* font family variables */
+    --montserrat: 'Montserrat', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
