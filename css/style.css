@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #252627;
+    background-color: var(--background-color);
     min-height:800px;
 }
 
