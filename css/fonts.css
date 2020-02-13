@@ -3,5 +3,5 @@
 @font-face {
     font-family: "Montserrat";
     /* src: '../fonts/Montserrat/Montserrat-Black.ttf'; */
-    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+    src: url(https://m1k4r.github.io/fonts/Montserrat/Montserrat-Black.ttf); /* ../fonts/Montserrat/Montserrat-Black.ttf */
 }

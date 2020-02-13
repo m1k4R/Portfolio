@@ -1,8 +1,8 @@
 /* import fonts from fonts.css file */
-@import url(./fonts.css);
+@import url(https://m1k4r.github.io/css/fonts.css);  /* ./fonts.css */
 
 /* css variables */
-@import url(./_variables.css);
+@import url(https://m1k4r.github.io/css/variables.css);  /* ./variables.css */
 
 html {
     scroll-behavior: smooth;
