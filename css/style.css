@@ -436,6 +436,14 @@ a {
     display: none;
 }
 
+.modal-content {
+    width: 50% !important;
+}
+
+video {
+    width: 500px;
+    height: 300px;
+}
 
 /* end portfolio area */
 /* start contact area */
@@ -463,7 +471,7 @@ a {
 }
 
 .socials-media i {
-    font-size: 16px;
+    font-size: 18px;
     color: #8aba65;
     transition: all 2s;
     padding-right: 10px;
@@ -572,7 +580,8 @@ a {
     }
     
     .my-about-container {
-        padding: 0;
+        /* padding: 0; */
+        padding-left: 40px;
     }
     
     .my-about-container span {
