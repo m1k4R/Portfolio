@@ -436,13 +436,23 @@ a {
     display: none;
 }
 
-.modal-content {
-    width: 50% !important;
+.modal-dialog {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
 }
 
+.modal-content .row {
+    text-align: left;
+}
+
+/* .modal-content .col-tech {
+    text-align: center;
+} */
+
 video {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 
 /* end portfolio area */
