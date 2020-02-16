@@ -442,8 +442,84 @@ a {
     max-width: 1000px;
 }
 
+.modal-content {
+    background-color: #252627;
+    font-family: var(--poppins);
+    color: #f2f2f2;
+    padding: 15px;
+    /* box-shadow: 8px 0px 12px 5px rgb(56, 56, 56), 0px 8px 12px 5px rgb(41, 41, 41), -8px 0px 12px 5px rgb(56, 56, 56), 0px 0px 12px 5px rgb(92, 148, 84), 5px 5px 14px 5px rgba(0,0,0,0); */
+    box-shadow: -10px -10px 16px 5px #000000;
+}
+
 .modal-content .row {
     text-align: left;
+}
+
+.modal-content p {
+    text-align: justify;
+}
+
+.my-div-title {
+    width: 100%;
+}
+
+.modal-content h4 {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.modal-content h6 {
+    float: left;
+}
+
+/* .modal-content span {
+    margin-right: 5px;
+} */
+
+.modal-content .my-span-I {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.modal-content .my-span-title {
+    font-size: 18px;
+}
+
+.modal-content .my-span {
+    font-size: 12px;
+}
+
+.modal-content ul {
+    margin-top: 30px;
+    /* list-style: none; */
+}
+
+.modal-content .close {
+    float: right;
+    color: #f2f2f2;
+}
+
+.col-tech {
+    padding-right: 0;
+}
+
+.my-div-item {
+    margin-top: 15px;
+}
+
+.col-tech .my-div-I {
+    float: left;
+    width: 5%;
+    vertical-align: middle;
+}
+
+.my-div-I h6 {
+    vertical-align: middle;
+}
+
+.col-tech .my-div-t {
+    margin-left: 5%;
+    vertical-align: middle;
 }
 
 /* .modal-content .col-tech {
@@ -453,6 +529,10 @@ a {
 video {
     width: 100%;
     height: auto;
+    outline-color: snow;
+    outline-width: 3px;
+    border: solid 1px silver;
+    /* box-shadow: 10px 10px 16px 3px #000000; */
 }
 
 /* end portfolio area */
