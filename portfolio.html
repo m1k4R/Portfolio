@@ -278,7 +278,7 @@
             <div class="my-project">
               <!-- Start Modal -->
               <a href="#" data-toggle="modal" data-target="#publicTransportMean">
-                <div class="modal fade bd-example-modal-lg" id="publicTransportMean" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal fade bd-example-modal-lg" id="publicTransportMean" onclick="document.getElementById('videoPublicTransportMean').pause();" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="row">
@@ -293,12 +293,12 @@
                       </div>
                       <div class="row">
                         <div class="col-lg-8 col-md-8 col-sm-12">
-                          <video controls>
+                          <video id="videoPublicTransportMean" controls>
                             <source src="./img/PublicTransport.mp4">
                           </video>
                           <p>Public Transport is a web application for digitization of urban traffic.
                             The application records the timetables, stations, lines, vehicles of urban traffic,
-                            and also simulates the movement of vehicles.
+                            and also simulates the movement of vehicles in real time.
                             Performs price list management, buying tickets by passengers and paying through PayPal service.
                           </p>
                         </div>
@@ -374,7 +374,7 @@
             <div class="my-project">
               <!-- Start Modal -->
               <a href="#" data-toggle="modal" data-target="#publicTransport">
-                <div class="modal fade bd-example-modal-lg" id="publicTransport" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal fade bd-example-modal-lg" id="publicTransport" onclick="document.getElementById('videoPublicTransport').pause();" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="row">
@@ -389,12 +389,12 @@
                       </div>
                       <div class="row">
                         <div class="col-lg-8 col-md-8 col-sm-12">
-                          <video controls>
+                          <video id="videoPublicTransport" controls>
                             <source src="./img/PublicTransport.mp4">
                           </video>
                           <p>Public Transport is a web application for digitization of urban traffic.
                             The application records the timetables, stations, lines, vehicles of urban traffic,
-                            and also simulates the movement of vehicles.
+                            and also simulates the movement of vehicles in real time.
                             Performs price list management, buying tickets by passengers and paying through PayPal service.
                           </p>
                         </div>
@@ -512,7 +512,7 @@
             <div class="my-project">
               <!-- Start Modal -->
               <a href="#" data-toggle="modal" data-target="#networkService">
-                <div class="modal fade bd-example-modal-lg" id="networkService" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal fade bd-example-modal-lg" id="networkService" onclick="document.getElementById('videoNetworkService').pause();" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="row">
@@ -527,7 +527,7 @@
                       </div>
                       <div class="row">
                         <div class="col-lg-8 col-md-8 col-sm-12">
-                          <video controls>
+                          <video id="videoNetworkService" controls>
                             <source src="./img/VID_20180119_201509.mp4">
                           </video>
                           <p>Network Service is a WPF application for monitoring the pressure in the valves.
